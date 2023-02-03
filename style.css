@@ -351,6 +351,7 @@ a.single-about,
   position: relative;
   margin-right: 30px;
   width: 580px;
+  object-fit: cover;
 }
 
 .gradient-btn.about-btn i{
