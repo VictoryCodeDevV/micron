@@ -25,20 +25,22 @@
         <link rel="stylesheet" href="style.css" />
 
         <link rel="stylesheet" href="assets/css/responsive.css" />
+
+        <link rel="stylesheet" href="assets/css/icomoon.css" />
     </head>
     <body>
         <div class="header-area wow fadeInDown header-absolate" id="nav" data-0="position:fixed;" data-top-top="position:fixed;top:0;" data-edge-strategy="set">
             <div class="container">
-                <div class="row">
+                <div class="row align-items-center">
                     <div class="col-4 d-block d-lg-none">
                         <div class="mobile-menu"></div>
                     </div>
-                    <div class="col-4 col-lg-2">
+                    <div class="col-4 col-lg-3">
                         <div class="logo-area">
-                            <a href="#"><img src="assets/img/logo-top.png" alt="" /></a>
+                            <a href="https://t.me/micronmgsu"><img src="assets/img/logo-top.png" alt="" /></a>
                         </div>
                     </div>
-                    <div class="col-4 col-lg-8 d-none d-lg-block">
+                    <div class="col-4 col-lg-6 d-none d-lg-block">
                         <div class="main-menu text-center">
                             <nav>
                                 <ul id="slick-nav">
@@ -46,38 +48,33 @@
                                         <a class="scroll" href="#home">Главная</a>
                                     </li>
                                     <li><a class="scroll" href="#about">Товар</a></li>
-                                    <li><a class="scroll" href="#Paper">Отзывы</a></li>
+                                    <li><a class="scroll" href="#feedback">Отзывы</a></li>
                                 </ul>
                             </nav>
                         </div>
                     </div>
-                    <div class="col-4 col-lg-2 text-right">
-                        <a href="#" class="logibtn gradient-btn">Написать в телеграм</a>
+                    <div class="col-4 col-lg-3 d-flex justify-content-end">
+                        <a href="https://t.me/micronmgsu" class="logibtn gradient-btn d-flex align-items-center"><span>Написать в </span><i class="icon-telegram"></i></a>
                     </div>
                 </div>
             </div>
         </div>
 
-        <div class="welcome-area wow fadeInUp" id="home">
+        <div class="welcome-area wow fadeInUp d-flex align-items-center" id="home">
             <div id="particles-js"></div>
             <div class="container">
-                <div class="row">
-                    <div class="col-12 col-md-6 align-self-center">
+                <div class="row justify-content-center">
+                    <div class="col-lg-8 col-md-6 align-self-center text-center">
                         <div class="welcome-right">
                             <div class="welcome-text">
-                                <h1>Аренда микронаушников МГСУ</h1>
+                                <h1>Аренда <br> микронаушников МГСУ</h1>
                                 <h4>Мы находимся в ОС-1, доставка по общежитию до комнаты бесплатно
                                   Другие общаги на ярославке — до входа
                                   Остальные случаи: передадим в ВУЗе</h4>
                             </div>
                             <div class="welcome-btn">
-                                <a href="#" class="gradient-btn v2 mr-20">написать нам</a>
+                                <a href="https://t.me/micronmgsu" class="gradient-btn v2 mr-20 btn">написать нам</a>
                             </div>
-                        </div>
-                    </div>
-                    <div class="col-12 col-md-6">
-                        <div class="welcome-img">
-                            <img src="assets/img/welcome-img.png" alt="" />
                         </div>
                     </div>
                 </div>
@@ -85,6 +82,85 @@
         </div>
 
 
+        <div class="about-area wow fadeInUp" id="about">
+            <div class="space-30"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="space-30"></div>
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5>Наши микронаушники</h5>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="space-10"></div>
+                <div class="row">
+                    <div class="col-12 col-md-6 d-flex">
+                        <div class="about-mid-img align-self-center">
+                            <img src="assets/img/headphones.png" alt="" />
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 align-self-center d-flex flex-column justify-content-between">
+                        <div class="heading">
+                            <h5>Представляем вам</h5>
+                        </div>
+                        <div class="about-mid-text">
+                            <h1>название</h1>
+                            <div class="space-10"></div>
+                            <p>
+                                Описание. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Mollitia quo quod iste quisquam, fuga sunt repudiandae tempore, earum velit quia eveniet reprehenderit praesentium vero illo. Laboriosam fuga quam tempora sunt.
+                            </p>
+                        </div>
+                        <a href="https://t.me/micronmgsu" class="gradient-btn v2 about-btn">Арендовать!</a>
+                    </div>
+                </div>
+            </div>
+            <div class="space-90"></div>
+        </div>
+        <div class="feedback-area" id="feedback">
+            <div class="space-60"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5 class="text-dark">Отзывы</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="row justify-content-center">
+                    <div class="feedback__widget col-sm-12 col-md-6">
+                        <script async src="https://telegram.org/js/telegram-widget.js?21" data-telegram-discussion="micronmgsu/8" data-comments-limit="50" data-color="343638" data-dark-color="FFFFFF"></script>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="map-area">
+            <div class="space-100"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <div class="heading">
+                            <h5 class="text-white">Наши контакты</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="space-20"></div>
+                <div class="row">
+                    <div class="col-12 col-md-8 col-lg-7 ">
+                        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/house/yaroslavskoye_shosse_26k12/Z04YcQdgS0AEQFtvfXR0dXhiZQ==/?ll=37.700253%2C55.854411&utm_medium=mapframe&utm_source=maps&z=16.86" style="color:#eee;font-size:12px;position:absolute;top:14px;">Ярославское шоссе, 26к12 — Яндекс Карты</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.700253%2C55.854411&mode=search&ol=geo&ouri=ymapsbm1%3A%2F%2Fgeo%3Fdata%3DCgg1Njc4MzgzOBJF0KDQvtGB0YHQuNGPLCDQnNC%2B0YHQutCy0LAsINCv0YDQvtGB0LvQsNCy0YHQutC%2B0LUg0YjQvtGB0YHQtSwgMjbQujEyIgoND80WQhXral9C&z=16.86" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                    </div>
+                    <div class="col-12 col-md-4 col-lg-5 d-flex flex-column justify-content-center">
+                        <p>Наш Телеграм: <a href="#">https://t.me/micronmgsu</a></p>
+                        <p>Адрес Москва, ярославское шоссе 26, к 12</p>
+                        <p>Работаем круглосуточно</p>
+                    </div>
+                </div>
+            </div>
+        </div>
         <script src="assets/js/jquery-2.2.4.min.js"></script>
 
         <script src="assets/js/popper.js"></script>
